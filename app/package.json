@@ -1,0 +1,9 @@
+{
+    "name": "hasher",
+    "id": "hasher@gpedro.net",
+    "title": "Hasher",
+    "description": "Developer's toolbox. Calculates MD5, SHA-1, SHA-2, IP/Subnet, URL decode, Base64 and more",
+    "author": "Gabriel Pedro",
+    "license": "MIT",
+    "version": "0.1.0"
+}
