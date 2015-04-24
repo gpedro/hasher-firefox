@@ -3,6 +3,7 @@ body {
 /*  margin: 0;*/
 /*  padding: 0;*/
   min-width: 600px;
+  background-color: #fff;
 /*  min-height: 700px;*/
   overflow-x: hidden;
   font-family: sans-serif;
@@ -34,11 +35,11 @@ ul.buttons li {
   margin-right: 5px;
 }
 ul.buttons li.l1 {
-  margin: 0;  
+  margin: 0;
   border-radius: 3px 0 0 3px;
 }
 ul.buttons li.l2 {
-  margin: 0;  
+  margin: 0;
   border-radius: 0;
   border-left: none;
 }
@@ -167,7 +168,7 @@ ul.buttons li.l2.on, ul.buttons li.l3.on {
 #info {
   float: right;
   text-align: right;
-  height: 30px; 
+  height: 30px;
   line-height: 30px;
 }
 /*#info a {
