@@ -8,11 +8,11 @@ var button = ToggleButton({
   id: 'hasher-toggle',
   label: 'Hasher',
   icon: {
-    '16':  './images/icon-16.png',
-    '32':  './images/icon-32.png',
-    '48':  './images/icon-48.png',
-    '64':  './images/icon-64.png',
-    '128': './images/icon-128.png'
+    '16'  : './images/icon-16.png',
+    '32'  : './images/icon-32.png',
+    '48'  : './images/icon-48.png',
+    '64'  : './images/icon-64.png',
+    '128' : './images/icon-128.png'
   },
   onChange: handleChange
 });
