@@ -14,8 +14,10 @@ var tabs = {
  *  Copy to clipboard
  */
 function copyToClipboard(id) {
-  $("#"+id).select();
-  document.execCommand('copy');
+  var element = $("#"+id);
+  element.select();
+
+  self.port.emit('sendToClip', element.val());
 }
 
 

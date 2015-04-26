@@ -1,17 +1,5 @@
 $(document).ready(function() {
 
-/*
- * I decided to leave popout button on the popout page
- *
-  if (typeof chrome.extension != "undefined") {
-    if (chrome.extension.getBackgroundPage().separatePopup == true) {
-      $("#popup").hide();
-    } else {
-      $("#popup").show();
-    }
-  }
-*/
-
   /*
    * Events registration
   */
@@ -24,20 +12,7 @@ $(document).ready(function() {
 
   // Open separate window (pop-out)
   $("#button-popout").click(function () {
-    if (typeof chrome.extension != "undefined") {
-      //chrome.extension.getBackgroundPage().separatePopup = true;
-/*
-      chrome.windows.create({
-        url: 'popup.html',
-        type: 'popup',
-        width: 700,
-        height: 800
-      });
-*/
-      chrome.tabs.create({
-        url: 'popup.html'
-      });
-    }
+    self.port.emit('openTab', 'popup.html?focusHack');
   });
 
   // Click on tab (Hash/HMAC/...)

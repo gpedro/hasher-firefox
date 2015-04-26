@@ -3,6 +3,9 @@ temp
 .tmp
 dist
 .sass-cache
-app/bower_components
-test/bower_components
+app/data/_components
+app/data/_lib
+app/data/_popup.html
+test/_components
 package
+.DS_Store

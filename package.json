@@ -1,11 +1,18 @@
 {
-    "name": "hasher",
-    "version": "0.0.1",
-    "dependencies": {},
-    "devDependencies": {
-        "grunt": "^0.4.5",
-        "grunt-contrib-watch": "^0.6.1",
-        "grunt-shell": "^1.1.2",
-        "load-grunt-tasks": "^3.1.0"
-    }
+  "name": "hasher",
+  "version": "0.0.1",
+  "scripts": {
+    "install": "bower install"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "bower": "^1.4.1",
+    "gulp": "^3.8.11",
+    "gulp-if": "^1.2.5",
+    "gulp-load-plugins": "^0.10.0",
+    "gulp-shell": "^0.4.1",
+    "gulp-uglify": "^1.2.0",
+    "gulp-useref": "^1.1.2",
+    "wiredep": "^2.2.2"
+  }
 }
